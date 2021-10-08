@@ -16,7 +16,7 @@ pipeline {
     }
     stage ('Second') {
       agent {
-        label 'agent-linux2'
+        label 'agent-linux-2'
       }
       steps {
       sh ''' 
